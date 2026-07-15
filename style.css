@@ -1,7 +1,212 @@
-body {
+html,
+body{
+
+    width:100%;
+    height:100%;
+
+    margin:0;
+
+    overflow:hidden;
     font-family: Tahoma, sans-serif;
     font-size: 11px;
 }
+
+#desktop{
+
+    position:fixed;
+
+    inset:0;
+
+    background-image:url("bliss.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+}
+
+#taskbar{
+
+    position:fixed;
+
+    left:0;
+    right:0;
+    bottom:0;
+
+    height:30px;
+
+    display:flex;
+    align-items:center;
+
+    background:
+
+    linear-gradient(
+        #4893F5,
+        #1B58D4,
+        #245EDB
+    );
+
+    border-top:1px solid #6EB8FF;
+
+}
+
+#start{
+
+    width:95px;
+    height:30px;
+
+    border:none;
+
+    color:white;
+
+    font-weight:bold;
+
+    font-style:italic;
+
+    border-radius:0 14px 14px 0;
+
+    background:
+
+    linear-gradient(
+        #6FD14D,
+        #2C8A17
+    );
+
+    box-shadow:
+
+        inset 0 1px rgba(255,255,255,.5);
+
+}
+
+#tasks{
+
+    display:flex;
+
+    gap:3px;
+
+    margin-left:6px;
+}
+
+.task{
+
+    width:160px;
+
+    height:24px;
+
+    background:
+
+    linear-gradient(
+        #5DA6FF,
+        #2E79E8
+    );
+
+    color:white;
+}
+
+#tray{
+
+    margin-left:auto;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:6px;
+
+    padding:0 8px;
+
+    color:white;
+}
+
+.desktop-icon{
+
+    position:absolute;
+
+    width:72px;
+
+    text-align:center;
+
+    color:white;
+
+    text-shadow:1px 1px black;
+}
+
+#startMenu{
+
+    position:fixed;
+
+    bottom:30px;
+
+    left:0;
+
+    width:380px;
+
+    height:440px;
+
+    display:none;
+
+}
+
+.menu-body{
+
+    display:flex;
+
+    height:350px;
+
+}
+
+.left{
+
+    width:50%;
+
+    background:white;
+
+}
+
+.right{
+
+    width:50%;
+
+    background:#D3E5FA;
+
+}
+
+.header{
+
+    height:60px;
+
+    background:
+
+    linear-gradient(
+        #2F86F7,
+        #0052D9
+    );
+
+    color:white;
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+.footer{
+
+    height:50px;
+
+    background:
+
+    linear-gradient(
+        #2A74E8,
+        #004BBE
+    );
+
+}
+
+
+
+
+
 
 .xp-window{
     width:700px;
