@@ -41,3 +41,27 @@ document.querySelectorAll(".xp-window").forEach(win=>{
     });
 
 });
+
+const start=document.getElementById("start");
+const menu=document.getElementById("startMenu");
+
+start.onclick=()=>{
+
+    menu.style.display=
+    menu.style.display==="block"
+    ? "none"
+    : "block";
+
+}
+
+Wallpaper           z-index:0
+
+Desktop Icons       z-index:5
+
+Windows             z-index:20+
+
+Start Menu          z-index:1000
+
+Notifications       z-index:1100
+
+Taskbar             z-index:2000
