@@ -28,3 +28,16 @@ document.addEventListener("mouseup", ()=>{
     dragging = false;
 
 });
+
+let topZ = 1;
+
+document.querySelectorAll(".xp-window").forEach(win=>{
+
+    win.addEventListener("mousedown", ()=>{
+
+        topZ++;
+        win.style.zIndex = topZ;
+
+    });
+
+});
