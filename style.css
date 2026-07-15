@@ -1,0 +1,190 @@
+.xp-window{
+    width:700px;
+
+    border:1px solid #0054E3;
+
+    border-radius:8px;
+
+    background:#ECE9D8;
+
+    overflow:hidden;
+
+    box-shadow:
+        0 6px 15px rgba(0,0,0,.45);
+}
+
+.titlebar{
+
+    height:30px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    padding:0 6px;
+
+    color:white;
+
+    font-weight:bold;
+
+    background:
+    linear-gradient(
+        to bottom,
+        #2B7CFF,
+        #0052D9
+    );
+}
+
+.buttons{
+    display:flex;
+    gap:2px;
+}
+
+.buttons button{
+
+    width:22px;
+    height:22px;
+
+    border-radius:4px;
+
+    border:1px solid #FFFFFF55;
+
+    background:
+    linear-gradient(
+        #72B6FF,
+        #1C66D4
+    );
+
+    color:white;
+}
+
+.close{
+
+    background:
+    linear-gradient(
+        #FF9770,
+        #D83C08
+    );
+}
+
+.menubar{
+
+    display:flex;
+
+    gap:18px;
+
+    padding:5px 8px;
+
+    background:#ECE9D8;
+
+    font-size:13px;
+}
+
+.toolbar{
+
+    height:34px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    padding:5px;
+
+    background:
+
+    linear-gradient(
+        #FDFDFD,
+        #E9E6D7
+    );
+
+    border-top:1px solid white;
+
+    border-bottom:1px solid #C6C2B5;
+}
+
+.content{
+
+    display:flex;
+
+    height:420px;
+}
+
+.sidebar{
+
+    width:190px;
+
+    background:
+    linear-gradient(
+        #7EA2F9,
+        #5575D7
+    );
+
+    color:white;
+}
+
+.taskbox{
+
+    margin:8px;
+
+    background:white;
+
+    border-radius:8px;
+
+    overflow:hidden;
+}
+
+.taskbox h3{
+
+    margin:0;
+
+    padding:6px;
+
+    background:#D6E7FF;
+
+    color:#003399;
+}
+
+.main{
+
+    flex:1;
+
+    background:white;
+
+    overflow:auto;
+
+    padding:12px;
+}
+
+.statusbar{
+
+    height:24px;
+
+    display:flex;
+
+    align-items:center;
+
+    padding-left:8px;
+
+    background:#ECE9D8;
+
+    border-top:1px solid #C8C4B7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
